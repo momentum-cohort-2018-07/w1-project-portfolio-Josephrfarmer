@@ -3,3 +3,85 @@
     Margin: 0;
     Padding: 0; 
 }
+
+html{
+    background-color:#6EA4BF;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img{
+    max-width: 100%;
+    /* width: 200px; */
+    height:300px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+
+
+.header {
+    display:flex;
+    background-color:#1C3144;
+    /* position:absolute; */
+    border: 5px #6EA4BF solid;
+}
+
+.header__title{
+    color:#FBFEF9; 
+    padding: 2px;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+.header__menu-item{
+    display: inline-block;
+    list-style:none;
+    text-decoration:none;
+}
+
+
+.header__menu-item a{
+    text-decoration: none; 
+    color:#FBFEF9;
+    font-size: 12px;
+    margin-left:9.5px;
+}
+
+.navigate{
+    display:flex;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+    background-color:#0078BB;
+    color: white;
+}
+
+.fa-github{
+    background-color: white;
+    color:black;
+
+}
+
+.social_media_list{
+    display: inline-block;
+}
