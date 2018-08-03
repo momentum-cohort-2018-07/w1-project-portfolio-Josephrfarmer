@@ -140,8 +140,13 @@ footer{
 .projects h2{
     margin-bottom:10px;
 }
+
+.projects__header__1{
+    text-decoration: underline;
+}
 .projects__header__2{
     margin-top:25px;
+    text-decoration: underline;
 }
 .project-1-link{
     display:inline-block;
@@ -191,4 +196,51 @@ footer{
 
 ul{
     list-style-position: inside;
+}
+.page_title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.resume_intro_phone{
+    margin-bottom: 10px;
+}
+
+.resume_intro{
+    margin-bottom: 25px;
+}
+
+.emploment_history_header{
+    margin-bottom: 15px;
+    border: 3px groove black;
+}
+
+.employment_history_cfa{
+    font-size: 1.2rem;
+}
+
+.employment_history_cfa_jobTitle{
+    margin-bottom: 20px;
+}
+
+.employment_history_jobDescription{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.education_history_header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px groove black;
+}
+
+.education_history_riverside{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.education_history_momentum{
+    margin-top:15px;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
