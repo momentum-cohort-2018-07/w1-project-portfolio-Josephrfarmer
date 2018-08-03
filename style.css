@@ -19,12 +19,29 @@ body{
 
 }
 
+.profile_pic_center{
+    text-align:center;
+}
+
 img{
     max-width: 100%;
     /* width: 200px; */
     height:300px;
     margin-top: 20px;
     /* margin-left: 20%; */
+}
+
+.intro h4{
+    margin-bottom:8px;
+}
+
+.intro h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.intro h3{
+    margin-bottom:10px;
 }
 
 .main{
@@ -119,12 +136,24 @@ footer{
     width:100%;
 }
 
+/* ********** porfoilio css ************ */
+
+.projects h2{
+    margin-bottom:10px;
+}
+.projects__header__2{
+    margin-top:25px;
+}
 .project-1-link{
     display:inline-block;
+    padding: 5px;
+    padding-bottom: 10px;
 }
 
 .project-2-link{
     display:inline-block;
+    padding: 5px;
+    padding-bottom:10px;
 }
 
 .project-1-link a{
@@ -135,4 +164,26 @@ footer{
 .project-2-link a{
     text-decoration:none;
     color:#FBFEF9;
+}
+
+.project-1-live{
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.project-2-live{
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.about-project-1{
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.about-project-2{
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:5px;
 }
