@@ -15,7 +15,6 @@ body{
     justify-content: space-between;
     height: 100%; */
     padding-bottom:100px;
-
 }
 
 .profile_pic_center{
@@ -32,15 +31,22 @@ img{
 
 .intro h4{
     margin-bottom:8px;
+    padding-left:5px;
 }
 
 .intro h2{
     font-size: 2rem;
     font-style: italic;
+    padding-left:5px;
 }
 
 .intro h3{
     margin-bottom:10px;
+    padding-left:5px;
+}
+
+.about-me{
+    padding-left:5px;
 }
 
 .main{
@@ -193,7 +199,9 @@ footer{
 }
 
 /* ************ resume css ********** */
-
+.main_resume{
+    padding-left:5px;
+}
 ul{
     list-style-position: inside;
 }
@@ -276,7 +284,7 @@ ul{
         display:flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-left:50px;
+        padding-left:25px;
         padding-top:20px;
     }
     .intro_hello{
@@ -362,5 +370,75 @@ ul{
 
     .about-project-2{
         width:70%;
+    }
+
+    .page_title{
+        font-size: 25px;
+    }
+
+    .intro_links{
+        /* display:flex; */
+       
+    }
+
+    .resume_intro_email{
+        float:right;
+        margin-right:4px;
+    }
+
+    .resume_intro_phone{
+        clear:both;
+        float:right;
+        margin-right:107px;
+    }
+
+    .resume_intro_about{
+        clear:both;
+        margin-top:50px;
+    }
+
+    .employment_history_cfa{
+        margin-bottom:10px;
+    }
+
+    .employment_history_cfa_date{
+        float:right;
+        font-size: 12px;
+        margin-right:10px;
+    }
+
+    .employment_history_cfa_jobTitle{
+        margin-top:10px;
+        font-size: 14px;
+    }
+
+    .education_history_riverside_date{
+        float:right;
+        font-size: 12px;
+        margin-right:10px;
+    }
+
+    .education_history_riverside_degree{
+        margin-top:10px;
+        font-size: 14px;
+    }
+
+    .education_history_momentum_date{
+        float:right;
+        font-size: 12px;
+        margin-right:10px;
+    }
+
+    .education_history_momentum_degree{
+        margin-top:10px;
+        font-size: 14px;
+    }
+
+    .emploment_history_header{
+        margin-right:10px;
+    }
+
+    .education_history_header{
+        margin-right:10px;
     }
 }
