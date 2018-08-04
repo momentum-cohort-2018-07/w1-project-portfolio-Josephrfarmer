@@ -244,3 +244,54 @@ ul{
     margin-bottom: 10px;
     text-decoration: underline;
 }
+
+/* *************** page break Home page *********** */
+
+@media only screen and (min-width: 426px){
+    .header__title{
+        padding-left:10px;
+    }
+
+    .navigate{
+        position:absolute;
+        top:0;
+        right: 0;
+        margin-top:8px;
+        margin-right:15px;
+        font-size: 25px;
+    }
+
+    .main{
+        margin-left:15px;
+        /* display:flex; */
+        /* flex-wrap: wrap; */
+    }
+    .profile_pic{
+        float:left;
+        width:250px;
+        height:350px;
+    }
+
+    section{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left:50px;
+        padding-top:20px;
+    }
+    .intro_hello{
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+
+    .intro_career{
+        font-style: italic;
+        /* padding-bottom: 75px; */
+    }
+
+    article p{
+        padding-right:250px;
+    }
+
+
+}
